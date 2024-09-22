@@ -1,4 +1,4 @@
-#include <iostream> it is a header file of a program.
+#include<iostream> it is a header file of a program.
 Using namespace std it is our template.
 int main it is our main function 
 int number it is an integer variable which store input of a program.

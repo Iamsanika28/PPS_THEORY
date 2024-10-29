@@ -1,0 +1,8 @@
+#include<cmath>
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout<<"3 raised to the power 2 is:"<<pow(3,2)<<endl;
+  return 0;
+ }

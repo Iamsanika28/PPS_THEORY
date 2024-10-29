@@ -1,0 +1,8 @@
+#include<cmath>
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout<<"Absolute value of -90 is:"<<abs(-90)<<endl;
+  return 0;
+ }

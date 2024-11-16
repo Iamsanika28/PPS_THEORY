@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void checkPositive(int number) {
+if (number < 0) {
+throw "Negative numbers are not allowed!";
+}
+cout << "You entered a positive number: " << number << endl;
+}
+int main() {
+int num;
+cout << "Enter a positive number: ";
+cin >> num;
+try {
+checkPositive(num);
+} catch (const char* e) {
+cout << "Exception: " << e << endl;
+}
+return 0;
+}
